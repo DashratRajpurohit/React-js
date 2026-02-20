@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
 import MealCard from "../components/MealCard";
 import Loading from "../components/Loading";
 import { useVegFilter } from "../context/VegFilterContext";
